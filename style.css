@@ -1,0 +1,45 @@
+@import url('https://fonts.googleapis.com/css2?family=Blinker:wght@400;700&display=swap');
+
+* {
+  font-family: 'Blinker', sans-serif;
+}
+
+html,
+body {
+  margin: 0;
+  padding: 0;
+  background-color: lightskyblue;
+
+}
+
+.my-online-user {
+  background-color: lightgreen;
+  font-size: 1.5rem;
+  padding: 0.5rem;
+  display: flex;
+  align-items: center;
+  border: 0.1rem solid black;
+  margin: 0.5rem;
+  border-radius: 0.3rem;
+  
+
+}
+
+.user-online {
+  height: 1rem;
+  width: 1rem;
+  background-color: green;
+  border-radius: 50%;
+  margin: 0 1rem;
+  order: 0;
+  
+}
+
+.user-username {
+  order: 1;
+}
+
+.my-online-users {
+  display: flex;
+  flex-direction: column;
+}
